@@ -69,7 +69,7 @@ return [
     | > expose token YOUR-AUTH-TOKEN
     |
     */
-    'auth_token' => '',
+    'auth_token' => env('EXPOSE_AUTH_TOKEN', ''),
 
     /*
     |--------------------------------------------------------------------------
